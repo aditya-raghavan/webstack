@@ -1,0 +1,101 @@
+
+div{
+	
+}
+
+body { 
+  background: url(D:/celluloid/images/hollywood_bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 0px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h1{
+	text-align: center;
+	font-size: 5em;
+	color: white;
+	font-weight: bold;
+	font-family: 
+	font-family: 'Rubik Mono One', sans-serif;
+	margin: 0px;
+	margin-bottom: 5px;
+}
+
+#heading{
+	padding: 10px;
+	background-color: black;
+	margin-top: 0;
+	text-align: center;
+	color: white;
+	border-bottom: 0.5px solid gray;
+
+}
+
+.jumbotron{
+	margin-top: 0px;
+	background: url('D:/celluloid/images/jumbotron1.jpg');
+	-webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    margin-bottom: 0px;
+}
+
+h2{
+	padding: 10px;
+	margin-top: 50px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	margin-bottom: 0px;
+	font-family: 'Lobster', cursive;
+}
+
+.pushspace{
+	height: 500px;
+}
+
+#jumb-desc{
+	padding: 10px;
+	font-size: 20px;
+	margin-top: 0px;
+	background-color: black;
+	color: white;
+	margin-bottom: 30px;
+}
+
+.article{
+	background-color: black;
+	color: white;
+	padding: 10px;
+
+}
+
+.heading{
+	margin-left: 20px;
+	font-size: 25px;
+
+}
+article ul{
+	font-size: 18px;
+}
+
+#headingnav{
+	background-color: black;
+	border: none;
+	border-radius: 0;
+
+}
+
+
+
+a.navbar-brand span{
+	color: white;
+	font-weight: bold;
+
+}
+

@@ -1,0 +1,85 @@
+body { 
+  background: url(D:/celluloid/images/hollywood_bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 0px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+#headingnav{
+	background-color: black;
+	border: none;
+	border-radius: 0;
+
+}
+
+
+
+a.navbar-brand span{
+	color: white;
+	font-weight: bold;
+
+}
+
+input[type=text], input[type=password] {
+  border-radius: 10px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+table{
+	
+	
+	text-align: center;
+}
+
+td{
+	padding: 20px;
+}
+
+#signupform{
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 75px;
+	background-color: black;
+	width: 35%;
+	padding: 15px;
+}
+
+td span{
+	color: white;
+	font-size: 1.5em;
+}
+
+#signupform p{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	
+}
+
+
