@@ -37,7 +37,7 @@ h1{
 
 .jumbotron{
 	margin-top: 0px;
-	background: url(../images/jumbotron1.jpg);
+	background-image: url(../images/jumbotron1.jpg);
 	-webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
