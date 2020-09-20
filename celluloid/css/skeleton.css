@@ -1,0 +1,45 @@
+body { 
+  background: url(../images/hollywood_bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 0px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+#headingnav{
+	background-color: black;
+	border: none;
+	border-radius: 0;
+
+}
+
+footer{
+  background-color: black;
+  margin-top: 50px;
+}
+
+
+
+footer div p{
+  
+  text-align: center;
+  color: white;
+
+}
+
+#footername{
+  margin-top: 15px;
+}
+
+a.navbar-brand span{
+  color: white;
+  font-weight: bold;
+
+}
+
+#myNavbar span{
+  color: white;
+}

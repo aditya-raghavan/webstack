@@ -18,13 +18,9 @@ body {
 
 
 
-a.navbar-brand span{
-	color: white;
-	font-weight: bold;
 
-}
 
-input[type=text], input[type=password] {
+td input[type=text], td input[type=password] {
   border-radius: 10px;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -33,7 +29,7 @@ input[type=text], input[type=password] {
   background: #f1f1f1;
 }
 
-button {
+td button {
   background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
@@ -63,14 +59,18 @@ td{
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 75px;
-	background-color: black;
-	width: 35%;
+	width: 50%;
+	background-color: black;	
 	padding: 15px;
 }
 
 td span{
 	color: white;
 	font-size: 1.5em;
+}
+
+td input{
+	width: 90%;
 }
 
 #signupform p{
@@ -100,4 +100,29 @@ footer div p{
 	margin-top: 15px;
 }
 
+a.navbar-brand span{
+	color: white;
+	font-weight: bold;
 
+}
+
+#myNavbar span{
+	color: white;
+}
+
+@media (min-width: 700px) and (max-width: 1170px){
+	#signupform{
+		width: 70%;
+	}
+}
+
+@media (max-width: 700px){
+	#signupform{
+		width: 100%;
+	}
+}
+
+#signupform table{
+	margin-left: auto;
+	margin-right: auto;
+}

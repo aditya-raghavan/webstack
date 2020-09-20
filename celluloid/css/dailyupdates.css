@@ -1,0 +1,35 @@
+#updatesdiv{
+  margin-top: 50px;
+  background-color: #e1e3dd;
+}
+.title{
+  font-size: 60px;
+  text-align: center;
+  color: black;
+  font-family: 'Grenze Gotisch', cursive;
+}
+
+hr{
+  height: 1px;
+  border-color: black;
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+.newstitle{
+  font-weight: bold;
+  font-size: 21px;  
+
+}
+
+.news-segment{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.newsdesc{
+  font-size: 18px;
+}
+
+
+

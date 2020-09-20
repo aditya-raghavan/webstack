@@ -32,6 +32,12 @@ h1{
 
 }
 
+.heading{
+	margin-left: 20px;
+	font-size: 25px;
+
+}
+
 .jumbotron{
 	margin-top: 0px;
 	background: url(../images/jumbotron1.jpg);
@@ -72,14 +78,12 @@ h2{
 
 }
 
-.heading{
-	margin-left: 20px;
-	font-size: 25px;
 
-}
 article ul{
 	font-size: 18px;
 }
+
+/* nav styles */
 
 #headingnav{
 	background-color: black;
@@ -95,6 +99,19 @@ a.navbar-brand span{
 	font-weight: bold;
 
 }
+
+a.navbar-brand span{
+	color: white;
+	font-weight: bold;
+
+}
+
+#myNavbar span{
+	color: white;
+}
+
+/*nav style ends */
+
 
 footer{
 	background-color: black;
