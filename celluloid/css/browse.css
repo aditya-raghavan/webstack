@@ -1,0 +1,63 @@
+h2{
+	color: white;
+	font-weight: bold;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+#home-movies{
+
+	margin-top: 50px;
+	background: rgb(88,88,88,0.5);
+	padding-top: 50px;
+	padding-bottom: 30px;
+
+	
+
+}
+
+div.row > div{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img{
+	margin-right: auto;
+	margin-left: auto;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+
+div.moviedesc p{
+	text-align: center;	
+	color: white;
+	font-weight: bold;
+
+
+
+}
+
+div.moviedesc p a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.rating{
+	margin-top: 0px;
+}
+
+figure img:hover{
+	opacity: 0.8;
+}
+
+.seemore{
+	text-decoration: none;
+	color: white;
+	margin-left: 50px;
+}
+
+a.seemore:hover{
+	text-decoration: none;
+	color: white;
+}
