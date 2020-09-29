@@ -11,6 +11,10 @@ body {
 
 }
 
+a.#signhere:visted{
+	color: #EE82EE;	
+}
+
 h1{
 	text-align: center;
 	font-size: 5em;
