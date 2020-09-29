@@ -23,7 +23,7 @@
 
 		<div id="home-movies">
 			<div class="row">
-				<div class="col-md-3 col-sm-3 col-lg-3 col-xl-3">
+				<div class="col-xs-6 col-md-3 col-sm-3 col-lg-3 col-xl-3">
 					<a href="#" class="movie-image">
 						<figure>
 							<img class="img-responsive" src="https://english-with-fun.com/images/thumbs/movie/crime/the_godfather/eb00f8b17dcb941e348bc02ea5209840fcbfac41.png" width="170" height="255">
@@ -37,7 +37,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-3 col-sm-3 col-lg-3 col-xl-3">
+				<div class="col-xs-6 col-md-3 col-sm-3 col-lg-3 col-xl-3">
 					<a href="#" class="movie-image">
 						<figure>
 							<img class="img-responsive" src="https://cdn.cinematerial.com/p/136x/x8chdqiy/once-upon-a-time-in-hollywood-movie-poster-sm.jpg?v=1564206501" width="170" height="255">
@@ -51,7 +51,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-3 col-sm-3 col-lg-3 col-xl-3">
+				<div class="col-md-6 col-sm-3 col-lg-3 col-xl-3">
 					<a href="#" class="movie-image">
 						<figure>
 							<img class="img-responsive" src="https://cdn.cinematerial.com/p/136x/leqatddq/the-great-wall-movie-poster-sm.jpg?v=1486408993" width="170" height="255">
@@ -65,7 +65,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-3 col-sm-3 col-lg-3 col-xl-3">
+				<div class="col-md-6 col-sm-3 col-lg-3 col-xl-3">
 					<a href="#" class="movie-image">
 						<figure>
 							<img class="img-responsive" src="https://cdn.cinematerial.com/p/297x/haeorwgk/1917-british-movie-poster-md.jpg?v=1579166770" width="170" height="255">
@@ -81,7 +81,7 @@
 
 				<div class="clearfix visible-md-block visible-sm-block visible-lg-block visible-xl-block"></div>
 
-				<div class="col-md-3 col-sm-3 col-lg-3 col-xl-3">
+				<div class="col-md-6 col-sm-3 col-lg-3 col-xl-3">
 					<a href="#" class="movie-image">
 						<figure>
 							<img class="img-responsive" src="https://resizing.flixster.com/Y_lwJNtvJk6r7HQ9YHZ4kUuQ4c0=/fit-in/278x400/v1.bTsxMzE3NjU1ODtqOzE4Mzc3OzEyMDA7MTMzNDsyMDAw" width="170" height="255">
@@ -95,7 +95,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-3 col-sm-3 col-lg-3 col-xl-3">
+				<div class="col-md-6 col-sm-3 col-lg-3 col-xl-3">
 					<a href="#" class="movie-image">
 						<figure>
 							<img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/sco/9/91/12_angry_men.jpg" width="170" height="255">
@@ -109,7 +109,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-3 col-sm-3 col-lg-3 col-xl-3">
+				<div class="col-md-6 col-sm-3 col-lg-3 col-xl-3">
 					<a href="#" class="movie-image">
 						<figure>
 							<img class="img-responsive" src="https://resizing.flixster.com/lRm1yCdGIcGLl7_X-t_s8h-5GgM=/206x305/v1.bTsxMTE5MDg2MDtqOzE4NTc5OzEyMDA7ODAwOzEyMDA" width="170" height="255">
@@ -123,7 +123,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-3 col-sm-3 col-lg-3 col-xl-3">
+				<div class="col-md-6 col-sm-3 col-lg-3 col-xl-3">
 					<a href="#" class="movie-image">
 						<figure>
 							<img class="img-responsive" src="https://english-with-fun.com/images/thumbs/movie/comedy/the_hangover/3ba67edd8fe01777c6164eb898bb6f0122ab2d91.png" width="170" height="255">
