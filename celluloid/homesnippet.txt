@@ -18,7 +18,7 @@
 			<li>Get regular updates on upcoming shows.</li>
 			<li>Too difficult to choose which movie to watch today? We have "Movie of the day" to make it easy for you.</li></ul>
 			<p style="margin-left: 20px">New to Celluloid?</p>
-			<a id="signhere" href="signup.html" style="margin-left: 20px;"><span>Sign up here.</span></a>
+			<a class="signhere" href="signup.html" style="margin-left: 20px;">Sign up here.</a>
 		</article>
 
 		<div id="home-movies">
