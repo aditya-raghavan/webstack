@@ -1,0 +1,45 @@
+.trailer-title{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+body{
+	color: white;
+}
+
+
+.trailerdiv{
+
+	margin-left: 5%;
+	margin-right: 5%;
+
+
+	background-color: black;
+	border: 2px solid black;
+	margin-top: 20px;
+
+}
+
+iframe,object, embed{
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+h2{
+
+	position: relative;
+  	animation: myfirst 5s linear 2s infinite;
+}
+
+@keyframes myfirst {
+  0%   { left:0px; top:0px;}
+  25%  { left:200px; top:0px;}
+  50%  { left:400px; top:0px;}
+  75%  { left:200px; top:0px;}
+  100% {left:0px; top:0px;}
+}
+
+
