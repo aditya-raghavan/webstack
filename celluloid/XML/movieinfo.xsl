@@ -16,14 +16,14 @@
 	
 	</tr>
 	
-	<xsl:for-each select="globalmovie/movie">
+	<xsl:for-each select="tns:globalmovie/tns:movie">
 	<tr>
-	<td><xsl:value-of select="moviename"></xsl:value-of></td>
-	<td><xsl:value-of select="year"></xsl:value-of></td>
-	<td><xsl:value-of select="director"></xsl:value-of></td>
-	<td><xsl:value-of select="starring"></xsl:value-of></td>
-	<td><xsl:value-of select="rating"></xsl:value-of></td>
-	<td><xsl:value-of select="plot"></xsl:value-of></td>
+	<td><xsl:value-of select="tns:moviename"></xsl:value-of></td>
+	<td><xsl:value-of select="tns:year"></xsl:value-of></td>
+	<td><xsl:value-of select="tns:director"></xsl:value-of></td>
+	<td><xsl:value-of select="tns:starring"></xsl:value-of></td>
+	<td><xsl:value-of select="tns:rating"></xsl:value-of></td>
+	<td><xsl:value-of select="tns:plot"></xsl:value-of></td>
 	</tr>
 	
 	
