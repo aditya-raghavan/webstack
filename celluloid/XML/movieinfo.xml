@@ -1,59 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="movieinfo.xsl"?>
-<tns:globalmovie xmlns:tns="http://www.example.org/movieschema" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="http://www.example.org/movieschema movieschema.xsd ">
-  <tns:movie mid="A01">
-    <tns:moviename>The Godfather</tns:moviename>
-    <tns:year>1971</tns:year>
-    <tns:director>Francis Ford Coppola</tns:director>
-    <tns:starring>Marlon Brando, Al Pacino</tns:starring>
-    <tns:rating>4.5</tns:rating>
-    <tns:plot>The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.</tns:plot>
-  </tns:movie>
-  
-  <tns:movie mid="A02">
-    <tns:moviename>Once Upon a Time In Hollywood</tns:moviename>
-    <tns:year>2019</tns:year>
-    <tns:director> Quentin Tarantino</tns:director>
-    <tns:starring> Leonardo DiCaprio, Brad Pitt</tns:starring>
-    <tns:rating>4.0</tns:rating>
-    <tns:plot>A faded television actor and his stunt double strive to achieve fame and success in the final years of Hollywood's Golden Age in 1969 Los Angeles.</tns:plot>
-  </tns:movie>
-  
-  <tns:movie mid="A03">
-    <tns:moviename>1917</tns:moviename>
-    <tns:year>2019</tns:year>
-    <tns:director>Sam Mendes</tns:director>
-    <tns:starring>Dean-Charles Chapman, George MacKay</tns:starring>
-    <tns:rating>4.1</tns:rating>
-    <tns:plot>April 6th, 1917. As a regiment assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap.</tns:plot>
-  </tns:movie>
-  
-  <tns:movie mid="A04">
-    <tns:moviename>Jojo Rabbit</tns:moviename>
-    <tns:year>2019</tns:year>
-    <tns:director> Taika Waititi</tns:director>
-    <tns:starring>Roman Griffin Davis, Thomasin McKenzie</tns:starring>
-    <tns:rating>4.0</tns:rating>
-    <tns:plot>A young boy in Hitler's army finds out his mother is hiding a Jewish girl in their home.</tns:plot>
-  </tns:movie>
-  
-  <tns:movie mid="A05">
-    <tns:moviename>12 Angry Men</tns:moviename>
-    <tns:year>1957</tns:year>
-    <tns:director>Sidney Lumet</tns:director>
-    <tns:starring> Henry Fonda, Lee J. Cobb</tns:starring>
-    <tns:rating>4.2</tns:rating>
-    <tns:plot>A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence.</tns:plot>
-  </tns:movie>
-  
-  <tns:movie mid="A06">
-    <tns:moviename>Interstellar</tns:moviename>
-    <tns:year>2014</tns:year>
-    <tns:director> Christopher Nolan</tns:director>
-    <tns:starring>Matthew McConaughey, Anne Hathaway</tns:starring>
-    <tns:rating>4.4</tns:rating>
-    <tns:plot>A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.</tns:plot>
-  </tns:movie>
-</tns:globalmovie>
+<?xml-stylesheet type="text/xsl" href="info.xsl"?>
+<globalmovie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="movieschema.xsd">
+  <movie mid="A01">
+    <moviename>The Godfather</moviename>
+    <year>1972</year>
+    <director>Francis Ford Coppola</director>
+    <starring> Marlon Brando, Al Pacino</starring>
+    <rating>4.5</rating>
+    <plot>The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.</plot>
+  </movie>
+  <movie mid="A02">
+    <moviename>Once Upon a Time... In Hollywood</moviename>
+    <year>2019</year>
+    <director>Quentin Tarantino</director>
+    <starring> Leonardo DiCaprio, Brad Pitt</starring>
+    <rating>4.0</rating>
+    <plot>A faded television actor and his stunt double strive to achieve fame and success in the final years of Hollywood's Golden Age in 1969 Los Angeles.</plot>
+  </movie>
+  <movie mid="A03">
+    <moviename>1917</moviename>
+    <year>2019</year>
+    <director> Sam Mendes</director>
+    <starring> Dean-Charles Chapman, George MacKay</starring>
+    <rating>4.1</rating>
+    <plot>April 6th, 1917. As a regiment assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap.</plot>
+  </movie>
+  <movie mid="A04">
+    <moviename>Jojo Rabbit</moviename>
+    <year>2019</year>
+    <director>Taika Waititi</director>
+    <starring> Roman Griffin Davis, Thomasin McKenzie</starring>
+    <rating>4.0</rating>
+    <plot>A young boy in Hitler's army finds out his mother is hiding a Jewish girl in their home.</plot>
+  </movie>
+  <movie mid="A05">
+    <moviename>Interstellar</moviename>
+    <year>2014</year>
+    <director> Christopher Nolan</director>
+    <starring> Matthew McConaughey, Anne Hathaway</starring>
+    <rating>4.4</rating>
+    <plot>A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.</plot>
+  </movie>
+  <movie mid="A06">
+    <moviename>12 Angry Men</moviename>
+    <year>1957</year>
+    <director> Sidney Lumet</director>
+    <starring> Henry Fonda, Lee J. Cobb</starring>
+    <rating>4.2</rating>
+    <plot>A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence.</plot>
+  </movie>
+</globalmovie>

@@ -1,34 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema" 
-targetNamespace="http://www.example.org/movieschema" 
-xmlns:tns="http://www.example.org/movieschema" 
-elementFormDefault="qualified">
+<celluloid:schema xmlns:celluloid="http://www.w3.org/2001/XMLSchema" xmlns:Q1="tns">
 
-<complexType name="infopagetype">
-<sequence>
-<element name="movie" type="tns:movietype" maxOccurs="unbounded"></element>
-</sequence>
-</complexType>
-<complexType name="movietype">
-<sequence>
-<element name="moviename" type="string"></element>
-<element name="year" type="integer"></element>
-<element name="director" type="string"></element>
-<element name="starring" type="string"></element>
-<element name="rating" type="tns:ratingtype"></element>
-<element name="plot" type="string"></element>
+<celluloid:complexType name="infopagetype">
+<celluloid:sequence>
+<celluloid:element name="movie" type="movietype" maxOccurs="unbounded"></celluloid:element>
+</celluloid:sequence>
+</celluloid:complexType>
+<celluloid:complexType name="movietype">
+<celluloid:sequence>
+<celluloid:element name="moviename" type="celluloid:string"></celluloid:element>
+<celluloid:element name="year" type="celluloid:integer"></celluloid:element>
+<celluloid:element name="director" type="celluloid:string"></celluloid:element>
+<celluloid:element name="starring" type="celluloid:string"></celluloid:element>
+<celluloid:element name="rating" type="ratingtype"></celluloid:element>
+<celluloid:element name="plot" type="celluloid:string"></celluloid:element>
 
-</sequence>
-<attribute name="mid" type="ID" use="required"></attribute>
-</complexType>
-<simpleType name="ratingtype">
-<restriction base="decimal">
-<minInclusive value="0.0"></minInclusive>
-<maxInclusive value="5.0"></maxInclusive>
-</restriction>
-</simpleType>
+</celluloid:sequence>
+<celluloid:attribute name="mid" type="celluloid:ID" use="required"></celluloid:attribute>
+</celluloid:complexType>
+<celluloid:simpleType name="ratingtype">
+<celluloid:restriction base="celluloid:decimal">
+<celluloid:minInclusive value="0.0"></celluloid:minInclusive>
+<celluloid:maxInclusive value="5.0"></celluloid:maxInclusive>
+</celluloid:restriction>
+</celluloid:simpleType>
 
-<element name="globalmovie" type="tns:infopagetype"></element>
+<celluloid:element name="globalmovie" type="infopagetype"></celluloid:element>
 
 
-</schema>
+</celluloid:schema>
