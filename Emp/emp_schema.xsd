@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<emp:schema xmlns:emp="http://www.w3.org/2001/XMLSchema" xmlns:Q1="tns">
+
+<emp:complexType name="companytype">
+<emp:sequence>
+<emp:element name="employee" type="employeetype" maxOccurs="unbounded"></emp:element>
+</emp:sequence>
+
+</emp:complexType>
+
+<emp:complexType name="employeetype">
+<emp:sequence>
+<emp:element name="Emp-name" type="emp:string"></emp:element>
+<emp:element name="Emp-age" type ="emp:integer"></emp:element>
+<emp:element name="Emp-salary" type="salarytype"></emp:element>
+<emp:element name="Emp-emailid" type ="emp:string"></emp:element>
+<emp:element name="Emp-phonenum" type="emp:integer"></emp:element>
+<emp:element name="Emp-designation" type ="emp:string"></emp:element>
+</emp:sequence>
+<emp:attribute name="id" type="emp:ID" use="required"></emp:attribute>
+</emp:complexType>
+
+<emp:simpleType name="salarytype">
+<emp:restriction base="emp:integer">
+<emp:minInclusive value="50000"></emp:minInclusive>
+<emp:maxInclusive value="200000"></emp:maxInclusive>
+</emp:restriction>
+</emp:simpleType>
+
+<emp:element name="company" type="companytype"></emp:element>
+
+
+
+</emp:schema>
