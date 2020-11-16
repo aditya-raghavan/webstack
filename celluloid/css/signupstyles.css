@@ -29,7 +29,7 @@ td input[type=text], td input[type=password] {
   background: #f1f1f1;
 }
 
-td button {
+td input[type=submit] {
   background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
@@ -38,6 +38,7 @@ td button {
   cursor: pointer;
   width: 100%;
   opacity: 0.9;
+  ;border-radius: 10px;
 }
 
 button:hover {
@@ -46,12 +47,17 @@ button:hover {
 
 table{
 	
-	
+	width: 90%;
 	text-align: center;
+	
+		
+
 }
 
 td{
 	padding: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
 }
 
 #signupform{
@@ -59,7 +65,7 @@ td{
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 75px;
-	width: 50%;
+	width: 60%;
 	background-color: black;	
 	padding: 15px;
 }
@@ -70,7 +76,7 @@ td span{
 }
 
 td input{
-	width: 90%;
+	width: 100%;
 }
 
 #signupform p{
