@@ -52,12 +52,22 @@ figure img:hover{
 }
 
 .seemore{
-	text-decoration: none;
-	color: white;
-	margin-left: 50px;
+	background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin-left: 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
 }
 
 a.seemore:hover{
 	text-decoration: none;
 	color: white;
+}
+
+select{
+	background-color: black;
+	color: white;
+	border-radius: 5px;
 }
