@@ -27,14 +27,10 @@ function checkcookie(){
 
 
 function deletecookie(){
-  var x = document.cookie;
-  if(x.length != 0){
-    var a = x.split('=');
-    var cookievalue = a[1];
-  }
+  
   
   
                
-  document.cookie = "username=" + cookievalue+ ";" + "expires=Thu, 01 Jan 1970 00:00:01 GMT";
+  document.cookie = "username=" + ";" + "expires=Thu, 01 Jan 1970 00:00:01 GMT";
   
 }
