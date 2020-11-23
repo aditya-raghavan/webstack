@@ -15,7 +15,7 @@
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   	
 </head>
-<body>
+<body onload="checkcookie()">
 	<header>
 		<div id="heading">
 			<h1>Welcome to <span class="text">Celluloid.com!</span></h1>
@@ -55,6 +55,8 @@
       			<ul class="nav navbar-nav navbar-right">
         			<li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> <span>Sign Up</span></a></li>
         			<li><a href="#"><span class="glyphicon glyphicon-log-in"></span><span>Login</span></a></li>
+        			<li id="signout"></li>
+
       			</ul>
     		</div>
   		</div>

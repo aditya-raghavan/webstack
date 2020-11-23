@@ -1,3 +1,18 @@
+window.onload = function(){
+	var x = document.cookie.split(';');
+  if(x.length != 0){
+    for(var i=0;i<x.length;i++){
+      var pair = x[i].split("=");
+      if("username" == pair[0].trim()){
+        alert("You have already logged in as " + pair[1]);
+        window.location.replace("index.html");
+      }
+    }
+  }
+
+}
+
+
 function signupvalidate(){
 	var fname = document.forms["signup"]["fname"].value;
 	var userid = document.forms["signup"]["userid"].value;
@@ -52,6 +67,8 @@ function signupvalidate(){
 			}
 		}
 
+	document.cookie = "username=" + fname +"; path=/;";
+	return true;
 
 }
 
