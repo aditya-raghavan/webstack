@@ -1,0 +1,27 @@
+<christ>
+<cs>
+	<stu-name>John</stu-name>
+	<stu-branch>kengeri</stu-branch>
+	<stu-college>St Joseph</stu-college>
+	<stu-email>john@stjoseph.in</stu-email>
+
+</cs>
+<cs>
+	<stu-name>Mary</stu-name>
+	<stu-branch>Chennai</stu-branch>
+	<stu-college>SRM</stu-college>
+	<stu-email>Mary@srm.in</stu-email>
+
+</cs>
+<cs>
+	<stu-name>Jacob</stu-name>
+	<stu-branch>Mangalore</stu-branch>
+	<stu-college>Manipal</stu-college>
+	<stu-email>jacob@manipal.in</stu-email>
+
+</cs>
+
+
+
+
+</christ>

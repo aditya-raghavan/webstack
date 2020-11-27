@@ -1,0 +1,149 @@
+body { 
+  background-color: black;
+  
+  padding-bottom: 0px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+
+
+
+td input[type=text], td input[type=password], td input[type=tel], textarea {
+  border-radius: 10px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: solid black 1px;
+  background: #f1f1f1;
+}
+
+td li{
+	font-size: 17px;
+}
+
+td input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  ;border-radius: 10px;
+}
+
+button:hover {
+  opacity:1;
+}
+
+table{
+	
+	width: 90%;
+	text-align: center;
+	
+		
+
+}
+
+td{
+	padding: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+#signupform{
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	width: 50%;
+	background-color: #e6e6e6;	
+	padding: 15px;
+}
+
+h1{
+	text-align: center;
+	margin-top: 50px;
+	color: white;
+	margin-bottom: 0px;
+}
+
+td span{
+	color: black;
+	font-size: 1.0em;
+}
+
+td input{
+	width: 100%;
+}
+
+#signupform p{
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+
+
+
+
+
+#signupform table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2{
+	margin-top: 50px;
+	color: white;
+	text-align: center;
+}
+
+.seemore{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+
+
+#demo,#demo th,#demo td{
+  border:1px solid white;
+  border-collapse:collapse;
+  
+  
+  }
+    #demo th{
+      text-align: center;
+  font-size:20px;
+  padding: 20px;
+  }
+  
+  #demo td{
+  padding:10px;
+  font-size:20px;
+  text-align:center;
+  }
+  
+  #demo{
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+  width:50%;
+  
+  }
+  
+  table.center{
+  margin-left:auto;
+  margin-right:auto;
+  
+  }

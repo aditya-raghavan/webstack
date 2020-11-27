@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="css\bootstrap.min.css" media="all"> 
+	<link rel="stylesheet" type="text/css" href="css\signupstyles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<h1>Techovid - Gateways 2020</h1>
+	<div id = "signupform">
+		<p>Register here!</p>
+		<hr>
+		<form name="signup" action="index.html" onsubmit="return signupvalidate()" required>
+		<table>
+			<tr>
+				<td><span>Name : </span></td>
+				<td><input type="text" placeholder="Enter Name" name="fname"onkeydown="preventNumberInput(event)"
+               onkeyup="preventNumberInput(event)"></td>
+			</tr>
+
+			
+
+			<tr>
+				<td><span>Email : </span></td>
+				<td><input type="text" placeholder="Enter Email" name="email"></td>
+			</tr>
+			<tr>
+				<td><span>Branch : </span></td>
+				<td><input type="text" placeholder="Enter Branch" name="bname"></td>
+			</tr>
+			<tr>
+				<td><span>University : </span></td>
+				<td><input type="text" placeholder="Enter University" name="uname"></td>
+			</tr>
+			<tr>
+				<td><span>State : </span></td>
+				<td><input type="text" placeholder="Enter State" name="state"></td>
+			</tr>
+
+			<tr>
+				<td><span>Address : </span></td>
+				<td><textarea name="address" id="address" rows="5" cols="30" placeholder="Address"></textarea><td>
+
+			</tr>
+
+			<tr>
+				<td><span>Age : </span></td>
+				<td><input type="text" placeholder="Enter Age" name="age" pattern="[0-9]{2}"></td>
+			</tr>
+
+			<tr>
+				<td><span>Phone Number : </span></td>
+				<td><input type="tel" name="phno" id="phno" placeholder="Phone Number" pattern="[0-9]{10}" onkeydown="preventCharInput(event)" onkeyup="preventCharInput(event)"><br><br><td>
+			</tr>
+
+
+
+			<tr>
+				<td><span>User ID : </span></td>
+				<td><input type="text" placeholder="Eg: john_wick(No Spaces)" name="userid" ></td>
+			</tr>
+			<tr>
+				<td><span>Password : </span></td>
+				<td><input type="password" placeholder="Password" name="psw" >
+				<ul><li>Minimum 5 Characters, 1 Uppercase letter, 1 Lowercase letter, 1 number, 1 special character</li></ul>
+				</td>
+
+			</tr>
+			
+			<tr>
+				<td><span>Confirm Password : </span></td>
+				<td><input type="password" placeholder="Repeat Password" name="psw-repeat" ></td>
+			</tr>
+
+			<tr>
+				<td><input type="submit" class="signupbtn" value="Register"></input></td>
+				
+			</tr>
+		</table></form>
+	</div>
+</div>
+
+
+
+<h2>Registered students</h2>
+<input class="seemore" type="button" onclick="loadXML()" value="Click here">
+
+<table id="demo" class="center"></table>
+
+<script src="js\signupscript.js"></script>
+
+</body>
+</html>

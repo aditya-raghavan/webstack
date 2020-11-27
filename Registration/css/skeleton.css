@@ -1,0 +1,70 @@
+*{
+  box-sizing: border-box;
+}
+
+body { 
+  background: url(../images/hollywood_bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 0px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0px;
+  
+
+}
+
+#headingnav{
+	background-color: black;
+	border: none;
+	border-radius: 0;
+
+}
+
+footer{
+  background-color: black;
+  margin-top: 50px;
+}
+
+
+
+footer div p{
+  
+  text-align: center;
+  color: white;
+
+}
+
+#footername{
+  margin-top: 15px;
+}
+
+a.navbar-brand span{
+  color: white;
+  font-weight: bold;
+
+}
+
+#myNavbar span{
+  color: white;
+}
+
+.home-movies{
+  margin-left: 0px;
+  margin-right: 0px;
+
+  margin-top: 50px;
+  background: rgb(88,88,88,0.5);
+  padding-top: 50px;
+  padding-bottom: 30px;
+
+  
+
+}
+
+div.row > div{
+  margin-left: auto;
+  margin-right: auto;
+}
+
