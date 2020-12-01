@@ -31,7 +31,7 @@ iframe,object, embed{
 h2{
 
 	position: relative;
-  	animation: myfirst 5s linear 2s infinite;
+  	
 }
 
 @keyframes myfirst {

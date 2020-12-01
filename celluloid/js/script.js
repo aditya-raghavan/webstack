@@ -8,29 +8,33 @@ document.addEventListener("DOMContentLoaded",
   };
   xhttp.open("GET", "homesnippet.txt", true);
   xhttp.send();
+  loadreview();
+  
 	});
 
-function checkcookie(){
-  var x = document.cookie.split(';');
-  if(x.length != 0){
-    for(var i=0;i<x.length;i++){
-      var pair = x[i].split("=");
-      if("username" == pair[0].trim()){
-        alert("Welcome " + pair[1]);
-        document.getElementById("signout").innerHTML = "<a href='index.html' onclick='deletecookie()'><span>Signout</span></a>"
+
+function loadreview(){
+  var i;
+  var html = '<div class="home-movies" id="reviewblur"><h3 style="color: white; margin-left: 10px; text-align: center; font-weight: bold;">Favorite Reviews</h3>';
+  var yhttp = new XMLHttpRequest();
+  yhttp.onreadystatechange = function(){
+    if(this.readyState==4 && this.status==200){
+      var array = eval(JSON.parse(this.responseText));
+      for(i=0;i<array.length;i++){
+        var name = array[i].name;
+        var movie = array[i].movie;
+        var review = array[i].review;
+        html += '<div class="reviewbox"><p class="revmov">' + movie + '</p><p class="revauthor">'+ name + '</p><hr><p class="revcontent">' + review + '</p></div>';
+        
+
+
       }
+      html+='</div>';
+      document.getElementById("reviewcontainer").innerHTML = html;
+
     }
-  }
+  };
+  yhttp.open("GET", "JSON/reviews.txt", true);
+  yhttp.send();
 }
 
-
-
-
-function deletecookie(){
-  
-  
-  
-               
-  document.cookie = "username=" + ";" + "expires=Thu, 01 Jan 1970 00:00:01 GMT";
-  
-}

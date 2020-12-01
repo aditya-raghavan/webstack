@@ -249,6 +249,41 @@ figure img:hover{
 }
 
 
+#reviewblur{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+		.reviewbox{
+			border-radius: 5px;
+			padding: 30px;
+			margin: 20px;
+
+			margin-bottom: 15px;
+			background-color: black;
+			color: white;
+			margin-bottom: 25px;
+
+		}
+		.revmov{
+			font-size: 15px;
+			margin-left: 20px;
+			font-weight: bold;
+		}
+
+		.revauthor{
+			font-size: 10px;
+			margin-left: 20px;
+
+		}
+		.revcontent{
+			font-size: 15px;
+
+		}
+
+		
+
+
+
 
 
 

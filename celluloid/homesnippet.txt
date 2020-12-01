@@ -149,7 +149,7 @@
 		</div>
 
 
-		<div class="container">
+		<div>
 			<div id="bradquote">
 				<div class="pushspace1">
 				<h2>“Our greatest glory is not in never falling,<br> but in rising every time we fall.”</h2>
@@ -163,3 +163,4 @@
 			</div>
 
 		</div>
+		
