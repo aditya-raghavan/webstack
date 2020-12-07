@@ -1,0 +1,55 @@
+#reviewblur{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+		.reviewbox{
+			border-radius: 5px;
+			padding: 30px;
+			margin: 30px;
+
+
+			margin-bottom: 15px;
+			background-color: black;
+			color: white;
+			margin-bottom: 25px;
+
+		}
+		.revmov{
+			font-size: 15px;
+			margin-left: 20px;
+			font-weight: bold;
+		}
+
+		.revauthor{
+			font-size: 10px;
+			margin-left: 20px;
+
+		}
+		.revcontent{
+			font-size: 15px;
+
+		}
+
+
+		input, textarea{
+			background-color: black;
+			color: white;
+			border-radius: 5px;
+
+		}
+
+		input{
+			height: 40px;
+		}
+
+		button{
+			background-color: black;
+			color: white;
+			border-radius: 5px;
+			margin-left: 20px;
+		}
+
+
+		.deletemark:hover{
+			cursor: pointer;
+		}

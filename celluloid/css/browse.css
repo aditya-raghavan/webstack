@@ -4,6 +4,10 @@
 }
 
 
+  
+
+
+
 
 
 
@@ -264,3 +268,23 @@ a:hover {
 .r::-webkit-scrollbar {
   display: none;
 }
+
+
+
+
+.browsenav{
+	width: 200px;
+	text-align: center;
+	
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+
+.browsenav a{
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+

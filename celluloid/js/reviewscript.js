@@ -1,0 +1,54 @@
+
+
+
+
+
+
+
+angular.module("MyApp",[])
+.controller("MyCtrl",function($scope)
+{
+    var movies=[
+{"name":"Kennedy_mac", "movie":"Queen's Gambit", "review":"A girl born an orphan finds her family in her friends, opponents, supporters and she finally learns to accept that she doesn't need to remain one. A truly well etched out character with a brilliant actress carrying this mega series to it's finesse. I love chess and show is an absolute personal favorite. Go girl!"},
+{"name":"Chiemelie Osigwe","movie":"The Umbrella Academy","review":"A fantastic and brilliantly conceived look into a highly dysfunctional and wonderfully funny family of superhuman children who have now grown up, whose lives have all changed for the worse: once media superstars constantly bathed in the spotlight of public attention, the members of the Umbrella Academy are split up, missing, or even dead."},
+{ "name":"_huckabees_", "movie":"Vikings",  "review":"First of all, I want to say that this show, unlike any other, has the best character development, plot/story development, and cinematography I've ever, ever seen. Everything about it, in my opinion, is perfect."}
+
+]
+;
+    console.log(movies);
+    $scope.movies=movies;
+
+    $scope.add=function()
+    {
+        $scope.movies.push({
+            name:$scope.username,
+            movie:$scope.moviename,
+            review:$scope.moviereview
+        });
+
+        clear();
+
+
+    }
+
+    $scope.delete=function()
+    {
+        var result=confirm('Are you sure?');
+        if(result==true)
+        {
+            var index=this.$index;
+            $scope.movies.splice(index,1);
+        }
+    };
+
+    function clear(){
+        $scope.username="";
+        $scope.moviename="";
+        $scope.moviereview="";
+}
+   
+});
+
+
+
+
