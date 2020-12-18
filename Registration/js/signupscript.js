@@ -54,19 +54,16 @@ function signupvalidate(){
 		alert("Invalid password");
 		return false;
 	}
-	else if(!(newuniv in email)){
-		alert("Only official emailID accepted");
-		return false;
-	}
-	else if(Math.sign(ageval)==-1){
-		alert("Invalid Age");
-		return false;
-	}
-	else if(!(userid[0] == userid[0].toUpperCase())){
+	if(!(userid[0] == userid[0].toUpperCase())){
 		alert("First letter of username should be capital");
 		return false;
 	}
 
+	if(!(email.includes(newuniv.toLowerCase()))){
+		alert("Only official emailID accepted");
+		return false;
+	}
+	
 
 	
 		for(var i=0;i<userid.length;i++){
